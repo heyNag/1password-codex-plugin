@@ -5,6 +5,8 @@ description: Manage a persistent desktop-approved 1Password shell when the user 
 
 # Night's Watch
 
+For manual installation and updates on another Mac, see [INSTALL.md](INSTALL.md).
+
 The user controls this skill with **start nightswatch** and **end nightswatch**.
 Its job is to retain one persistent shell through Codex's terminal tools, obtain
 1Password desktop approval there, and reuse that session for related authorized
