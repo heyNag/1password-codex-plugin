@@ -1,0 +1,4 @@
+interface:
+  display_name: "Night's Watch"
+  short_description: "Start or end a persistent credential shell"
+  default_prompt: "Use $nightswatch to start nightswatch: open a persistent shell, run op signin for my approval, and reuse that terminal."
