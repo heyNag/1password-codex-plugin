@@ -65,8 +65,8 @@ codex plugin list --marketplace 1password-plugins --json
 
 The `installed` array should contain `1password@1password-plugins` with
 `"installed": true`, `"enabled": true`, and a source path ending in
-`projects/forks/1password-codex-plugin/plugins/1password`. The version matches
-upstream, currently `0.3.0`; our skill additions do not add a version suffix.
+`projects/forks/1password-codex-plugin/plugins/1password`. Check that the
+installed version matches the `version` field in the [plugin manifest](../../.codex-plugin/plugin.json).
 
 If the marketplace name is already registered to a different location, inspect
 `codex plugin marketplace list --json` and resolve that source mismatch before

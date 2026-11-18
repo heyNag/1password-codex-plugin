@@ -1,6 +1,6 @@
 {
   "name": "1password",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Use the local 1Password MCP server to manage 1Password Developer Environments and local .env mounts from Codex.",
   "author": {
     "name": "1Password"
@@ -31,12 +31,13 @@
       "Write"
     ],
     "websiteURL": "https://www.1password.dev/",
+    "supportURL": "https://support.1password.com/",
     "privacyPolicyURL": "https://1password.com/legal/privacy/",
     "termsOfServiceURL": "https://1password.com/legal/terms-of-service/",
     "defaultPrompt": [
       "List my 1Password Environments",
       "Create a local .env mount here",
-      "Add a placeholder variable for my OpenAI API key"
+      "Add a placeholder secret for my OpenAI API key"
     ],
     "brandColor": "#0A84FF",
     "composerIcon": "./assets/icon.svg",
